@@ -1,4 +1,7 @@
 # Ulaanbaatar Particulate Matter Dataset (2015–2018)
+import kagglehub
+path = kagglehub.dataset_download("robertritz/ulaanbaatar-particulate-matter")
+print("Path to dataset files:", path)
 
 ## Dataset Description
 This dataset contains **hourly PM2.5 and PM10 measurements** from 18 air quality monitoring stations in Ulaanbaatar, Mongolia, covering the years 2015–2018. It provides crucial information on air pollution levels in the city, with a focus on **Ger districts**, where household coal burning is a major source of pollution. The dataset is sourced from OpenAQ and made available via Kaggle. It is suitable for analyzing temporal and spatial trends in air quality, evaluating policy interventions such as the **2019 raw coal ban**, and exploring the relationship between energy use and air pollution.

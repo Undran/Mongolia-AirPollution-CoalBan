@@ -1,21 +1,24 @@
-# Ulaanbaatar Particulate Matter Dataset (2015–2018)
-import kagglehub
-path = kagglehub.dataset_download("robertritz/ulaanbaatar-particulate-matter")
-print("Path to dataset files:", path)
+# Ulaanbaatar Particulate Matter Subset (Ger Districts)
 
 ## Dataset Description
-This dataset contains **hourly PM2.5 and PM10 measurements** from 18 air quality monitoring stations in Ulaanbaatar, Mongolia, covering the years 2015–2018. It provides crucial information on air pollution levels in the city, with a focus on **Ger districts**, where household coal burning is a major source of pollution. The dataset is sourced from OpenAQ and made available via Kaggle. It is suitable for analyzing temporal and spatial trends in air quality, evaluating policy interventions such as the **2019 raw coal ban**, and exploring the relationship between energy use and air pollution.
+This dataset is a subset of the Ulaanbaatar Particulate Matter Pollution 2015–2018 dataset from OpenAQ, focusing on Ger district monitoring stations. It includes hourly PM2.5 and PM10 measurements from 10 key stations in Ger areas. The subset contains the first 2000 rows to make it manageable for analysis and visualization. It retains all columns from the original dataset, including date, parameter, location, value, unit, city, attribution, coordinates, country, sourcename, sourcetype, and mobile. This dataset can be used to evaluate air pollution trends in Ger districts and to explore the potential impact of energy transition policies, such as the 2019 raw coal ban.
 
 ## Data Dictionary
 
-| Column      | Description                                | Data Type |
-|------------|--------------------------------------------|-----------|
-| timestamp  | Date and time of measurement               | datetime  |
-| station_id | Identifier for the monitoring station      | string    |
-| pm25       | PM2.5 concentration (µg/m³)               | float     |
-| pm10       | PM10 concentration (µg/m³)                | float     |
-| latitude   | Latitude of the monitoring station         | float     |
-| longitude  | Longitude of the monitoring station        | float     |
+| Column       | Description |
+|--------------|-------------|
+| date         | Timestamp of measurement |
+| parameter    | Pollutant type (PM2.5 or PM10) |
+| location     | Monitoring station name |
+| value        | Measured value of pollutant |
+| unit         | Unit of measurement (µg/m³) |
+| city         | City name (Ulaanbaatar) |
+| attribution  | Data source attribution |
+| coordinates  | Latitude and longitude of station |
+| country      | Country code (MN) |
+| sourcename   | Source organization name |
+| sourcetype   | Type of source |
+| mobile       | Boolean indicating if station is mobile |
 
-## Replicability and Reuse
-The dataset is publicly accessible and can be programmatically downloaded using the Kaggle API. It supports reproducible analyses of air quality trends and policy impacts in Ulaanbaatar. Missing values may occur due to temporary station downtime; these should be handled during preprocessing. The data is structured for reuse in statistical modeling, machine learning, and visualization.
+## Replicability & Reuse
+This dataset is derived from a publicly available dataset (OpenAQ) and can be reused for environmental, public health, and policy research. By sharing this subset along with processing code, researchers can reproduce analyses and adapt it for other temporal or spatial resolutions while respecting the FAIR principles (Findable, Accessible, Interoperable, Reusable) and CARE principles (Collective benefit, Authority to control, Responsibility, Ethics).

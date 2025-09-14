@@ -15,7 +15,6 @@ This dataset is a subset of the publicly available “Ulaanbaatar Particulate Ma
 | unit       | string    | Measurement unit (µg/m³) |
 | source     | string    | Original data source or notes |
 
-> **Note:** Replace or add any columns if your CSV contains additional information. Use `df.columns.tolist()` in Python to confirm exact names.
 
 ---
 

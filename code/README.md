@@ -1,24 +1,19 @@
-# Exploratory Data Analysis: Ulaanbaatar Air Pollution
+# EDA Notebook: eda_pm25.ipynb
 
-## Overview
-This Jupyter Notebook (`eda_air_pollution.ipynb`) performs exploratory data analysis on the Ulaanbaatar Particulate Matter dataset (2015–2018), focusing on PM2.5 and PM10 levels, particularly in Ger districts. Analysis includes temporal trends, seasonal decomposition, and missing data checks.
+**Purpose:**  
+This Jupyter Notebook performs basic exploratory data analysis (EDA) on the `ulaanbaatar_pm25_subset.csv` dataset, which contains the **5,000 highest PM2.5 measurements** in Ulaanbaatar.
 
-## Key Steps
-1. Download dataset from Kaggle via API.
-2. Load CSV into a Pandas DataFrame.
-3. Convert timestamp to datetime and filter Ger district stations.
-4. Perform summary statistics and check missing values.
-5. Plot PM2.5 and PM10 trends over time.
-6. Seasonal decomposition of PM2.5 to understand yearly patterns.
-7. Save filtered Ger district dataset for further analysis.
+**Contents / Steps:**
+1. **Load dataset:** Import the CSV from `data/`.
+2. **Inspect data:** View the shape, columns, and first few rows.
+3. **Summary statistics:** Compute descriptive statistics for numeric columns.
+4. **Missing data check:** Identify columns with missing values.
+5. **Categorical exploration:** Examine value counts for key categorical variables like `parameter`, `location`, `city`, and `sourcename`.
+6. **Visualizations:**
+   - Histogram of PM2.5 values.
+   - Boxplot of PM2.5 by location.
 
-## Requirements
-- Python 3.x
-- pandas
-- matplotlib
-- seaborn
-- statsmodels
-- kaggle (for dataset download)
-
-## Purpose
-Provides a foundation for analyzing the impact of the 2019 raw coal ban on air quality in Ulaanbaatar. Cleaned and visualized data will be used for predictive modeling and counterfactual analysis.
+**Integration / Notes:**
+- The notebook uses a subset of the Kaggle dataset to keep performance high while analyzing extreme pollution events.
+- This analysis supports further research into high pollution patterns, temporal trends, and spatial distribution of PM2.5 in Ulaanbaatar.
+- Demonstrates the **AI Triad** by combining data exploration, visualization, and domain knowledge in environmental studies.

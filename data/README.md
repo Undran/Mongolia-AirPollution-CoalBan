@@ -1,24 +1,23 @@
-# Ulaanbaatar Particulate Matter Subset (Ger Districts)
+# Dataset: Ulaanbaatar Particulate Matter Sensor Data (subset)
 
-## Dataset Description
-This dataset is a subset of the Ulaanbaatar Particulate Matter Pollution 2015–2018 dataset from OpenAQ, focusing on Ger district monitoring stations. It includes hourly PM2.5 and PM10 measurements from 10 key stations in Ger areas. The subset contains the first 2000 rows to make it manageable for analysis and visualization. It retains all columns from the original dataset, including date, parameter, location, value, unit, city, attribution, coordinates, country, sourcename, sourcetype, and mobile. This dataset can be used to evaluate air pollution trends in Ger districts and to explore the potential impact of energy transition policies, such as the 2019 raw coal ban.
+**Description (100–150 words)**  
+This dataset is a subset of the publicly available “Ulaanbaatar Particulate Matter Sensor Data (2015–2018)” dataset from Kaggle. To make the dataset manageable for classroom analysis, only the first 5,000 rows of the original CSV were included. The subset contains measurements from multiple monitoring stations across Ulaanbaatar, Mongolia, including PM2.5 and PM10 concentrations, timestamps, and station identifiers. This smaller dataset is intended for exploratory data analysis, visualization, and teaching purposes. Users who need full temporal coverage or the complete dataset distribution should refer to the original dataset on Kaggle. The subset preserves the structure and key variables of the original data while significantly reducing file size, making it easier to load and analyze in Python or Jupyter Notebook. 
 
-## Data Dictionary
+---
 
-| Column       | Description |
-|--------------|-------------|
-| date         | Timestamp of measurement |
-| parameter    | Pollutant type (PM2.5 or PM10) |
-| location     | Monitoring station name |
-| value        | Measured value of pollutant |
-| unit         | Unit of measurement (µg/m³) |
-| city         | City name (Ulaanbaatar) |
-| attribution  | Data source attribution |
-| coordinates  | Latitude and longitude of station |
-| country      | Country code (MN) |
-| sourcename   | Source organization name |
-| sourcetype   | Type of source |
-| mobile       | Boolean indicating if station is mobile |
+## Data dictionary (update types if needed)
+| name       | type      | description |
+|------------|-----------|-------------|
+| datetime   | datetime  | Timestamp of measurement (local time) |
+| station    | string    | Monitoring station identifier or name |
+| PM2.5      | float     | PM2.5 concentration in µg/m³ |
+| PM10       | float     | PM10 concentration in µg/m³ |
+| unit       | string    | Measurement unit (µg/m³) |
+| source     | string    | Original data source or notes |
 
-## Replicability & Reuse
-This dataset is derived from a publicly available dataset (OpenAQ) and can be reused for environmental, public health, and policy research. By sharing this subset along with processing code, researchers can reproduce analyses and adapt it for other temporal or spatial resolutions while respecting the FAIR principles (Findable, Accessible, Interoperable, Reusable) and CARE principles (Collective benefit, Authority to control, Responsibility, Ethics).
+> **Note:** Replace or add any columns if your CSV contains additional information. Use `df.columns.tolist()` in Python to confirm exact names.
+
+---
+
+## Reflection on replicability & reuse
+This subset was created by taking the first 5,000 rows of the full dataset to keep the repository lightweight and suitable for classroom use. While this makes the dataset easy to work with and share, it may reduce replicability for analyses that require the full data distribution or complete temporal coverage. The original dataset is still publicly available on Kaggle, and users can recreate or expand this subset by downloading the full data and running a similar subsetting procedure.

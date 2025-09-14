@@ -1,22 +1,27 @@
 # Dataset: Ulaanbaatar Particulate Matter Sensor Data (subset)
 
 **Description (100–150 words)**  
-This dataset is a subset of the publicly available “Ulaanbaatar Particulate Matter Sensor Data (2015–2018)” dataset from Kaggle. To make the dataset manageable for classroom analysis, only the first 5,000 rows of the original CSV were included. The subset contains measurements from multiple monitoring stations across Ulaanbaatar, Mongolia, including PM2.5 and PM10 concentrations, timestamps, and station identifiers. This smaller dataset is intended for exploratory data analysis, visualization, and teaching purposes. Users who need full temporal coverage or the complete dataset distribution should refer to the original dataset on Kaggle. The subset preserves the structure and key variables of the original data while significantly reducing file size, making it easier to load and analyze in Python or Jupyter Notebook. 
+This dataset is a subset of the publicly available “Ulaanbaatar Particulate Matter Sensor Data (2015–2018)” dataset from Kaggle. To make the dataset manageable for classroom analysis, only the first 5,000 rows of the original CSV were included. The subset contains air quality measurements from multiple monitoring stations across Ulaanbaatar, Mongolia, including PM2.5 and PM10 concentrations. Key columns include timestamps in UTC and local time, the pollutant parameter, measurement location, value, units, city, source attribution, geographic coordinates, country, source name, source type, and mobile availability. This subset is intended for exploratory data analysis, visualization, and teaching purposes. The original dataset remains publicly available on Kaggle for users who need full temporal coverage or complete dataset distribution.  
 
 ---
 
-## Data dictionary (update types if needed)
-| name       | type      | description |
-|------------|-----------|-------------|
-| datetime   | datetime  | Timestamp of measurement (local time) |
-| station    | string    | Monitoring station identifier or name |
-| PM2.5      | float     | PM2.5 concentration in µg/m³ |
-| PM10       | float     | PM10 concentration in µg/m³ |
-| unit       | string    | Measurement unit (µg/m³) |
-| source     | string    | Original data source or notes |
-
+## Data dictionary
+| name         | type      | description |
+|--------------|-----------|-------------|
+| date         | string    | Timestamp information in UTC and local time (`{utc=..., local=...}`) |
+| parameter    | string    | Pollutant measured (e.g., `pm25` or `pm10`) |
+| location     | string    | Name of monitoring station or location |
+| value        | float     | Measured value of the pollutant in µg/m³ |
+| unit         | string    | Measurement unit (e.g., `µg/m³`) |
+| city         | string    | City where measurement was taken (Ulaanbaatar) |
+| attribution  | string    | Source attribution, often a list of agencies or URLs |
+| coordinates  | string    | Latitude and longitude of monitoring station |
+| country      | string    | Country code (MN for Mongolia) |
+| sourcename   | string    | Name of the data source |
+| sourcetype   | string    | Type of source (if available) |
+| mobile       | string    | Indicates mobile station if applicable |
 
 ---
 
 ## Reflection on replicability & reuse
-This subset was created by taking the first 5,000 rows of the full dataset to keep the repository lightweight and suitable for classroom use. While this makes the dataset easy to work with and share, it may reduce replicability for analyses that require the full data distribution or complete temporal coverage. The original dataset is still publicly available on Kaggle, and users can recreate or expand this subset by downloading the full data and running a similar subsetting procedure.
+This subset was created by taking the first 5,000 rows of the full dataset to keep the repository lightweight and suitable for classroom use. While this reduces the temporal coverage and may limit some analyses, it preserves the core structure and key variables for exploratory data analysis and teaching. The original dataset is publicly available on Kaggle, and users can reproduce or expand this subset by downloading the full data and applying a similar subsetting procedure.

@@ -1,7 +1,6 @@
 # EDA Notebook: compare_pre_post.ipynb
-
 ## Purpose
-This Jupyter Notebook performs basic exploratory data analysis (EDA) on the OpenAQ Ulaanbaatar air quality datasets (2015–2018 and 2020–2024). The analysis evaluates the impact of Mongolia’s 2019 raw coal ban on PM2.5 and PM10 levels in Ger districts.
+This Jupyter Notebook performs basic exploratory data analysis (EDA) on the OpenAQ Ulaanbaatar air quality datasets (2015–2018 and 2020–2024). The analysis evaluates the impact of Mongolia’s 2019 raw coal ban on PM2.5 levels in Ger districts.
 
 ## Contents / Steps
 
@@ -15,16 +14,16 @@ This Jupyter Notebook performs basic exploratory data analysis (EDA) on the Open
    Handle missing or invalid values (`value = -999`) and convert timestamps to `datetime`.
 
 4. **Summary statistics**  
-   Compute mean, standard deviation, and counts for PM2.5 and PM10.
+   Compute mean, standard deviation, and counts for PM2.5.
 
 5. **Hypothesis testing**  
    Perform Welch’s two-sample t-test to compare pre- and post-coal ban values.
 
 6. **Time series aggregation**  
-   Compute monthly average PM2.5 and PM10 concentrations.
+   Compute monthly average PM2.5concentrations.
 
 7. **Visualizations**  
-   - Line plots of monthly average PM2.5 and PM10 pre/post policy  
+   - Line plots of monthly average PM2.5 policy  
    - Boxplots and histograms for distribution analysis
 
 8. **Preliminary insights**  

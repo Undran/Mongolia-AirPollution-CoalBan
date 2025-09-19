@@ -9,10 +9,23 @@ This project investigates changes in air pollution in Ulaanbaatar before and aft
 - **Cloud Setup:** Google Colab
 
 ## Research Framework & AI Triad Integration
-Integration – Conceptual Flowchart:
-
 graph TD
-    A[OpenAQ Datasets: 2015-2018 & 2020-2024] --> B[Data Cleaning & Basic EDA]
-    B --> C[Compare PM2.5 and PM10 Pre/Post Coal Ban]
-    C --> D[Visualizations & Summary Statistics]
-    D --> E[Preliminary Insights on Air Quality Changes]
+    A["OpenAQ Datasets: 2015-2018 & 2020-2024"] --> B["Data Cleaning & Basic EDA"]
+
+    subgraph AI_Triad
+        B
+        C["Compare PM2.5 and PM10 Pre/Post Coal Ban"]
+        D["Monthly Average Time Series Visualization"]
+    end
+
+    B --> C
+    C --> D
+    D --> E["Preliminary Insights on Air Quality Changes"]
+    E --> F["Implications for Public Health & Policy"]
+
+    %% AI Triad legend
+    subgraph Legend["AI Triad"]
+        DATA["Data: OpenAQ pre/post datasets"]
+        ALGO["Algorithms: Aggregation, grouping, visualization"]
+        COMPUTE["Computing Power: Jupyter Notebook (local/cloud)"]
+    end

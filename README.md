@@ -9,7 +9,6 @@ This project investigates changes in air pollution in Ulaanbaatar before and aft
 - **Cloud Setup:** Google Colab
 
 ## Research Framework & AI Triad Integration
-```mermaid
 graph TD
     A[OpenAQ Datasets: 2015-2018 & 2020-2024] --> B[Data Cleaning & Basic EDA]
     B --> C[Compare PM2.5 Pre/Post Coal Ban]

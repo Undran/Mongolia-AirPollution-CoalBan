@@ -1,7 +1,7 @@
 # Dataset: OpenAQ Air Quality Data for Ulaanbaatar
 
 **Description (100–150 words)**  
-This folder contains two open-access datasets from OpenAQ that provide air quality measurements for Ulaanbaatar, Mongolia. The datasets cover periods **pre-2019** (2015–2018) and **post-2019** (2020–2024) to analyze the impact of Mongolia's 2019 raw coal ban on air pollution in Ger districts. Both datasets include hourly and daily measurements of **PM2.5** and **PM10**, which are key indicators of air pollution and public health risks. The data has been cleaned and merged to facilitate **descriptive analysis, hypothesis testing, and time series visualization**. The structure is suitable for replicable research and reuse, supporting FAIR principles (Findable, Accessible, Interoperable, Reusable) and CARE principles (Collective Benefit, Authority to Control, Responsibility, Ethics).
+This folder contains two open-access datasets from OpenAQ that provide air quality measurements for Ulaanbaatar, Mongolia. The datasets cover periods **pre-2019** (2015–2018) and **post-2019** (2020–2024) to analyze the impact of Mongolia's 2019 raw coal ban on air pollution in Ger districts. Both datasets include hourly and daily measurements of **PM2.5**, which is a key indicator of air pollution and public health risks. The data has been cleaned and merged to facilitate **descriptive analysis, hypothesis testing, and time series visualization**. The structure is suitable for replicable research and reuse, supporting FAIR principles (Findable, Accessible, Interoperable, Reusable) and CARE principles (Collective Benefit, Authority to Control, Responsibility, Ethics).
 
 
 ---

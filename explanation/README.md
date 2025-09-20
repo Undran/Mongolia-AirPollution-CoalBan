@@ -1,5 +1,4 @@
 # Part II – Machine Learning for Explanation
-
 ## Purpose
 This Jupyter Notebook performs machine learning-based explanation and exploratory analysis on scholarly literature related to **Ulaanbaatar air pollution**, **Mongolia coal ban**, and **air pollution policy**. Instead of predicting outcomes, this part focuses on uncovering patterns, relationships, and insights in existing research to inform the main project question: *How effective are interventions in reducing PM2.5 and air pollution in Mongolia?*
 

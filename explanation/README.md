@@ -2,25 +2,22 @@
 
 This section uses machine learning (ML) to **explain and interpret** patterns in the literature, rather than only predicting outcomes.  
 
----
 
-## 🔍 Methods Used  
+## Methods Used  
 
-### 📘 Topic Modeling (LDA)  
+###Topic Modeling (LDA)  
 - Groups research papers into themes (e.g., *air pollution health risks*, *renewable energy adoption*).  
 - Helps identify dominant discussions and gaps in the literature.  
 
-### 😊 Sentiment Analysis  
+### Sentiment Analysis  
 - Detects tone (positive, negative, neutral) in policy or public discussion texts.  
 - Provides insight into how interventions like the coal ban are framed socially and politically.  
 
-### 🌐 Citation Network Analysis  
+### Citation Network Analysis  
 - Maps relationships between studies through citations.  
 - Highlights **influential authors** and **key papers** shaping the research field.  
 
----
-
-## 📦 Deliverables  
+## Deliverables  
 
 1. **Preliminary Results**  
    - Topic clusters from LDA.  
@@ -37,14 +34,8 @@ This section uses machine learning (ML) to **explain and interpret** patterns in
    - How are policies framed?  
    - Which studies are central and influential?  
 
----
-
-## ✅ Expected Outcomes  
+## Expected Outcomes  
 
 - Clearer understanding of **key themes** in the literature.  
 - Identification of **sentiment trends** around air pollution and energy policy.  
 - Recognition of **research leaders and gaps** to guide further analysis.  
-
----
-
-⚡ *This streamlined set of methods balances interpretability with depth while keeping results focused on the main research question.*  

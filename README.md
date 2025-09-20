@@ -6,7 +6,7 @@ This project investigates changes in air pollution in Ulaanbaatar before and aft
 
 ## System Configuration
 - **Local Setup:** Python 3.10, Jupyter Notebook, pandas, matplotlib, seaborn, numpy, statsmodels
-- **Cloud Setup:** Google Colab
+- **Cloud Setup:** Google Colab 
 
 ## Research Framework & AI Triad Integration
 ```mermaid

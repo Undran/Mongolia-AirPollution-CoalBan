@@ -5,7 +5,7 @@ This section uses machine learning (ML) to **explain and interpret** patterns in
 
 ## Methods Used  
 
-###Topic Modeling (LDA)  
+Topic Modeling (LDA)  
 - Groups research papers into themes (e.g., *air pollution health risks*, *renewable energy adoption*).  
 - Helps identify dominant discussions and gaps in the literature.  
 

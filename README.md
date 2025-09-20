@@ -20,4 +20,11 @@ graph TD
     D --> E["Time Series Visualization (Monthly Avg PM2.5 and PM10)"]
     E --> F["Preliminary Insights on Air Quality Changes"]
 
+I would like to thank Professor Luyao Zhang and my classmate Enkhjin Purevsukh for their constructive feedback. Their guidance helped me:
+
+- Correctly source post-2019 air quality data using OpenAQ.
+- Strengthen literature review and clarify novelty.
+- Define variables, intervention, and controls precisely.
+- Expand methodology and account for weather/economic factors.
+- Improve reproducibility, documentation, and ethical framing.
 

@@ -21,12 +21,13 @@ I would like to thank Professor Luyao Zhang and my classmate Enkhjin Purevsukh f
 ## Research Framework & AI Triad Integration
 ```mermaid
 graph TD
-    A["OpenAQ Datasets: 2015-2018 & 2020-2024"] --> B
-    subgraph AI_Triad
-        B["Data Cleaning & Basic EDA"]
-        C["Compare PM2.5 and PM10 Pre/Post Coal Ban"]
-    end
+    A["OpenAQ Datasets: 2015-2018 & 2020-2024"] --> B["Data Cleaning & Basic EDA (PM2.5)"]
+    B --> C["Compare PM2.5 Levels Pre/Post Coal Ban"]
     C --> D["Descriptive Statistics & Hypothesis Testing"]
-    D --> E["Time Series Visualization (Monthly Avg PM2.5 and PM10)"]
-    E --> F["Preliminary Insights on Air Quality Changes"]
+    D --> E["Time Series Analysis & Visualization (Monthly Avg PM2.5)"]
+    E --> F["Counterfactual Analysis & Policy Impact Estimation"]
+    F --> G["Machine Learning: Model Explanation (PM2.5)"]
+    G --> H["Machine Learning: Prediction of PM2.5 Levels"]
+
+
 

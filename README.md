@@ -27,7 +27,7 @@ graph TD
     D --> E["Time Series Analysis & Visualization (Monthly Avg PM2.5)"]
     E --> F["Counterfactual Analysis & Policy Impact Estimation"]
 
-    A --> G["Machine Learning: Model Explanation (PM2.5)"]
-    G --> H["Machine Learning: Prediction of PM2.5 Levels"]
+    A --> G["Machine Learning: Model Explanation"]
+    G --> H["Machine Learning: Prediction"]
 
 

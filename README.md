@@ -10,11 +10,12 @@ This project evaluates the environmental and social impact of Mongolia’s 2019 
 
 ## Authors and Roles
 Author: Undran Enkhbaatar
-Conceptualization and design of research framework
-Data collection and preprocessing (OpenAQ datasets)
-Statistical and machine-learning modeling (ITS, Random Forest, XGBoost)
-Visualization and result interpretation
-Documentation, poster, and final report preparation
+Roles:
+- Conceptualization and design of research framework
+- Data collection and preprocessing (OpenAQ datasets)
+- Statistical and machine-learning modeling (ITS, Random Forest, XGBoost)
+- Visualization and result interpretation
+- Documentation, poster, and final report preparation
 
 ## Disclaimer 
 This repository supports the final research proposal submitted to STATS 201: Machine

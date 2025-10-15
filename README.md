@@ -10,6 +10,7 @@ This project evaluates the environmental and social impact of Mongolia’s 2019 
 
 ## Authors and Roles
 Author: Undran Enkhbaatar
+
 Roles:
 - Conceptualization and design of research framework
 - Data collection and preprocessing (OpenAQ datasets)

@@ -24,6 +24,7 @@ Through this project, I developed advanced technical and analytical skills at th
 
 ## Table of Contents
 [Code (Machine Learning Notebooks)](code/)
+
 [Data (OpenAQ Datasets)](data/)
 
 ## Research Framework & AI Triad Integration

@@ -22,12 +22,13 @@ I would like to thank Prof. Luyao Zhang for her guidance and feedback, and Enkhj
 ## Statement of Growth
 Through this project, I developed advanced technical and analytical skills at the intersection of machine learning and social science. I learned to design reproducible research workflows, perform causal inference, and apply predictive modeling to real-world environmental data. The process deepened my understanding of ethical AI practices, interdisciplinary collaboration, and data transparency. Most importantly, it enhanced my ability to connect technical analysis with societal impact, shaping my growth as a socially responsible data scientist.
 
-## Table of Contents
+### **Project Deliverables**
 - [Code (Machine Learning Notebooks)](code/)
 - [Data (OpenAQ Datasets)](data/)
-- [Final paper (docx)](STATS201_Final.docx)
-- [Poster](STATS201_Poster.png)
-
+- [Final Paper](docs/STATS201_Final.docx)
+- [Poster (PDF)](docs/STATS201researchposter(1).png)
+- [Field Trip Reflection (PDF)](docs/Field_Trip_Reflection.docx)
+  
 ## Research Framework & AI Triad Integration
 ```mermaid
 graph TD

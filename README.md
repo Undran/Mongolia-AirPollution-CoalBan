@@ -26,8 +26,8 @@ Through this project, I developed advanced technical and analytical skills at th
 - [Code (Machine Learning Notebooks)](code/)
 - [Data (OpenAQ Datasets)](data/)
 - [Final Paper](docs/STATS201_Final.docx)
-- [Poster (PDF)](docs/STATS201researchposter(1).png)
-- [Field Trip Reflection (PDF)](docs/Field_Trip_Reflection.docx)
+- [Poster](docs/STATS201_Poster.png)
+- [Field Trip Reflection)](docs/Field_Trip_Reflection.docx)
   
 ## Research Framework & AI Triad Integration
 ```mermaid

@@ -27,9 +27,26 @@ Through this project, I developed advanced technical and analytical skills at th
 
 [Data (OpenAQ Datasets)](data/)
 
-[Final Report (doc)](STATS201_Final .docx/)
 
+## Table of Contents**
 
+- [Project Title and Abstract](#1-project-title-and-abstract)
+- [Authors and Roles](#2-authors-and-roles)
+- [Disclaimer](#3-disclaimer)
+- [Acknowledgments](#4-acknowledgments)
+- [Statement of Growth](#5-statement-of-growth)
+- [Navigation Instructions](#7-navigation-instructions)
+- [Embedded Media](#8-embedded-media)
+- [Field Trip Reflection](#field-trip-reflection)
+
+### Repository Directories
+- [Code (Machine Learning Notebooks)](code/)
+- [Data (OpenAQ Datasets)](data/)
+- [Visualizations (Figures and Graphs)](visualizations/)
+
+### Reports and Poster
+- [Final Report (PDF)](Final_Report.pdf)
+- [Poster (PDF)](Poster.pdf)
 
 ## Research Framework & AI Triad Integration
 ```mermaid

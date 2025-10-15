@@ -8,7 +8,7 @@ This project evaluates the environmental and social impact of Mongolia’s 2019 
 <img width="113" height="113" alt="image" src="https://github.com/user-attachments/assets/f0dbaf28-83c3-4e15-a83b-aa8629d33f0f" />
 <img width="113" height="113" alt="image" src="https://github.com/user-attachments/assets/e5606777-32e1-470f-a42a-051adc3eef64" />
 
-
+b
 
 ## Authors and Roles
 Author: Undran Enkhbaatar

@@ -27,7 +27,8 @@ Through this project, I developed advanced technical and analytical skills at th
 
 [Data (OpenAQ Datasets)](data/)
 
-STATS 201 research poster (1).png
+[Final Report (doc)](STATS201_Final .docx/)
+
 
 
 ## Research Framework & AI Triad Integration

@@ -36,6 +36,7 @@ Through this project, I developed advanced technical and analytical skills at th
 - [Poster](docs/STATS201_Poster.pdf)
 - [Field Trip Reflection](docs/Field_Trip_Reflection.pdf)
 - [Watch the demo on YouTube](https://youtu.be/MNwOYKDcmao)
+  
   [![Watch the demo](https://img.youtube.com/vi/MNwOYKDcmao/hqdefault.jpg)](https://youtu.be/MNwOYKDcmao)
 ## Research Framework & AI Triad Integration
 ```mermaid

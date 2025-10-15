@@ -23,30 +23,10 @@ I would like to thank Prof. Luyao Zhang for her guidance and feedback, and Enkhj
 Through this project, I developed advanced technical and analytical skills at the intersection of machine learning and social science. I learned to design reproducible research workflows, perform causal inference, and apply predictive modeling to real-world environmental data. The process deepened my understanding of ethical AI practices, interdisciplinary collaboration, and data transparency. Most importantly, it enhanced my ability to connect technical analysis with societal impact, shaping my growth as a socially responsible data scientist.
 
 ## Table of Contents
-[Code (Machine Learning Notebooks)](code/)
-
-[Data (OpenAQ Datasets)](data/)
-
-
-## Table of Contents**
-
-- [Project Title and Abstract](#1-project-title-and-abstract)
-- [Authors and Roles](#2-authors-and-roles)
-- [Disclaimer](#3-disclaimer)
-- [Acknowledgments](#4-acknowledgments)
-- [Statement of Growth](#5-statement-of-growth)
-- [Navigation Instructions](#7-navigation-instructions)
-- [Embedded Media](#8-embedded-media)
-- [Field Trip Reflection](#field-trip-reflection)
-
-### Repository Directories
 - [Code (Machine Learning Notebooks)](code/)
 - [Data (OpenAQ Datasets)](data/)
-- [Visualizations (Figures and Graphs)](visualizations/)
-
-### Reports and Poster
-- [Final Report (PDF)](Final_Report.pdf)
-- [Poster (PDF)](Poster.pdf)
+- [Final paper (docx)](STATS201_Final.docx)
+- [Poster (png)](STATS 201 research poster.png)
 
 ## Research Framework & AI Triad Integration
 ```mermaid

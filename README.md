@@ -3,6 +3,13 @@
 ## Project Title and Abstract
 This project evaluates the environmental and social impact of Mongolia’s 2019 Raw Coal Ban (RCB) on urban air quality in Ulaanbaatar using machine learning and causal-inference methods. By combining Interrupted Time Series (ITS) analysis, exploratory data analysis (EDA), and counterfactual prediction models (Random Forest, Gradient Boosting, XGBoost), the study estimates how the RCB influenced fine particulate matter (PM₂.₅) levels. Complementary natural-language-processing (NLP) methods map global research trends on air-pollution policy. Together, these approaches provide a reproducible framework for evaluating environmental interventions and advancing sustainable, data-driven policymaking aligned with SDG 3 (Health), SDG 7 (Clean Energy), SDG 11 (Sustainable Cities), and SDG 13 (Climate Action).
 
+<img width="113" height="113" alt="image" src="https://github.com/user-attachments/assets/585ef0aa-1d19-43c5-badb-bdc930cb24ba" />
+<img width="113" height="113" alt="image" src="https://github.com/user-attachments/assets/29bdba31-9d7d-4ffd-977f-9f9e5540d046" />
+<img width="113" height="113" alt="image" src="https://github.com/user-attachments/assets/f0dbaf28-83c3-4e15-a83b-aa8629d33f0f" />
+<img width="113" height="113" alt="image" src="https://github.com/user-attachments/assets/e5606777-32e1-470f-a42a-051adc3eef64" />
+
+
+
 ## Authors and Roles
 Author: Undran Enkhbaatar
 Conceptualization and design of research framework

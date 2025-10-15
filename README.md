@@ -27,7 +27,7 @@ Through this project, I developed advanced technical and analytical skills at th
 - [Data (OpenAQ Datasets)](data/)
 - [Final Report (PDF)](docs/Final_Report.pdf)
 - [Poster](docs/STATS201_Poster.pdf)
-- [Field Trip Reflection)](docs/Field_Trip_Reflection.pdf)
+- [Field Trip Reflection](docs/Field_Trip_Reflection.pdf)
   
 ## Research Framework & AI Triad Integration
 ```mermaid

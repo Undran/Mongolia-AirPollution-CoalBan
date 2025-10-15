@@ -27,6 +27,9 @@ Through this project, I developed advanced technical and analytical skills at th
 
 [Data (OpenAQ Datasets)](data/)
 
+STATS 201 research poster (1).png
+
+
 ## Research Framework & AI Triad Integration
 ```mermaid
 graph TD

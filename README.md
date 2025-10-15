@@ -25,7 +25,7 @@ Through this project, I developed advanced technical and analytical skills at th
 ### **Project Deliverables**
 - [Code (Machine Learning Notebooks)](code/)
 - [Data (OpenAQ Datasets)](data/)
-- [Final Report (PDF)](docs/Final_Report.pdf)
+- [Final Report (PDF)](docs/STATS201_Final.pdf)
 - [Poster](docs/STATS201_Poster.pdf)
 - [Field Trip Reflection](docs/Field_Trip_Reflection.pdf)
   

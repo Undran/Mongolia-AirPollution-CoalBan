@@ -26,18 +26,28 @@ Through this project, I developed advanced technical and analytical skills at th
 - [Code (Machine Learning Notebooks)](code/)
 - [Data (OpenAQ Datasets)](data/)
 - [Final paper (docx)](STATS201_Final.docx)
-- [Poster (png)](STATS 201 research poster.png)
+- [Poster](STATS201_Poster.png)
 
 ## Research Framework & AI Triad Integration
 ```mermaid
 graph TD
-    A["OpenAQ Datasets: 2015-2018 & 2020-2024"] --> B["Data Cleaning & Basic EDA (PM2.5)"]
-    B --> C["Compare PM2.5 Levels Pre/Post Coal Ban"]
-    C --> D["Descriptive Statistics & Hypothesis Testing"]
-    D --> E["Time Series Analysis & Visualization (Monthly Avg PM2.5)"]
-    E --> F["Counterfactual Analysis & Policy Impact Estimation"]
+    A["OpenAQ Datasets (Pre-Ban: 2015–2018, Post-Ban: 2020–2024)"] --> B["Data Cleaning & Exploratory Data Analysis (PM₂.₅)"]
+    B --> C["Descriptive Statistics & Hypothesis Testing (t-test)"]
+    C --> D["Interrupted Time Series (ITS) Analysis"]
+    D --> E["Counterfactual Modeling & Policy Impact Estimation"]
+    
+    A --> F["Machine Learning for Explanation (NLP & Literature Mapping)"]
+    F --> G["Network & Sentiment Analysis of Air-Pollution Studies"]
+    
+    D --> H["Machine Learning for Prediction (RF, GB, XGBoost)"]
+    H --> I["Model Evaluation (RMSE, MAE, R², MAPE)"]
+    I --> J["Counterfactual Forecasting of Post-Policy PM₂.₅"]
 
-    A --> G["Machine Learning: Model Explanation"]
-    G --> H["Machine Learning: Prediction"]
+    subgraph AI_Triad["AI Triad Integration"]
+        A["Data"] --> F
+        F --> H
+        H --> E
+    end
+
 
 
